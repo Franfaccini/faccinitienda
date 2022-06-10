@@ -4,12 +4,13 @@ import Main from "./components/Main"
 import Footer from "./components/Footer"
 import ItemListContainer from "./components/ItemListContainer"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Header from "./components/Header"
 const App = () => {
   return (
     <>
-  <Navbar/>
+  <Header/>
   <ItemListContainer saludo="Bienvenidos" />
+  <Footer/>
     </>
   ) 
 }
